@@ -55,7 +55,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>RF modules</description>
+<description>Various RF modules</description>
 <packages>
 <package name="A7105_DEV1">
 <pad name="7" x="-7.8105" y="0" drill="0.9144" shape="long"/>
