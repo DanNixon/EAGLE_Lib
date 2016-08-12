@@ -2,8 +2,8 @@
 
 My library of "go to" parts for [EAGLE](https://cadsoft.io).
 
-All parts in the root of the repository are mine, included (as submodules) are
-other libraries I frequently use:
+All parts in the `custom` directory are mine, included (as submodules) are other
+libraries I frequently use:
 
   - [Adafruit library](https://github.com/adafruit/Adafruit-Eagle-Library)
   - [Sparkfun library](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
