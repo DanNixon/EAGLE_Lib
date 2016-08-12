@@ -43,12 +43,8 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -60,74 +56,12 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>Switches</description>
+<description>Battery holders and clips</description>
 <packages>
-<package name="JS202011CQN">
-<description>DTDT through hole slide switch</description>
-<pad name="1" x="-2.4892" y="-1.651" drill="0.9" diameter="1.6764"/>
-<pad name="4" x="-2.4892" y="1.651" drill="0.9" diameter="1.6764"/>
-<pad name="2" x="0" y="-1.651" drill="0.9" diameter="1.6764"/>
-<pad name="5" x="0" y="1.651" drill="0.9" diameter="1.6764"/>
-<pad name="3" x="2.4892" y="-1.651" drill="0.9" diameter="1.6764"/>
-<pad name="6" x="2.4892" y="1.651" drill="0.9" diameter="1.6764"/>
-<wire x1="-4.4958" y1="1.651" x2="4.4958" y2="1.651" width="0.127" layer="21"/>
-<wire x1="4.4958" y1="1.651" x2="4.4958" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="4.4958" y1="-1.651" x2="-4.4958" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-4.4958" y1="-1.651" x2="-4.4958" y2="1.651" width="0.127" layer="21"/>
-<text x="-5.08" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-1.27" size="1.27" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
-<symbol name="SLIDE-DPDT">
-<circle x="-2.0638" y="2.54" radius="0.449" width="0.254" layer="94"/>
-<circle x="-2.0638" y="0" radius="0.449" width="0.254" layer="94"/>
-<circle x="-2.0638" y="-2.54" radius="0.449" width="0.254" layer="94"/>
-<text x="-2.54" y="4.1275" size="1.778" layer="95" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-6.0325" size="1.778" layer="96" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.2701" y1="-0.3175" x2="-0.635" y2="2.8575" layer="94"/>
-<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
-<wire x1="-1.27" y1="2.8575" x2="-1.27" y2="-2.8575" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-2.8575" x2="-0.635" y2="-2.8575" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-2.8575" x2="-0.635" y2="2.8575" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="2.8575" x2="-1.27" y2="2.8575" width="0.1524" layer="94"/>
-<circle x="2.0638" y="2.54" radius="0.449" width="0.254" layer="94"/>
-<circle x="2.0638" y="0" radius="0.449" width="0.254" layer="94"/>
-<circle x="2.0638" y="-2.54" radius="0.449" width="0.254" layer="94"/>
-<rectangle x1="0.635" y1="-0.3175" x2="1.2701" y2="2.8575" layer="94" rot="R180"/>
-<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="5" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<wire x1="1.27" y1="2.8575" x2="1.27" y2="-2.8575" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.8575" x2="0.635" y2="-2.8575" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-2.8575" x2="0.635" y2="2.8575" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="2.8575" x2="1.27" y2="2.8575" width="0.1524" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="JS202011CQN">
-<description>DPDT through hole slide switch</description>
-<gates>
-<gate name="G$1" symbol="SLIDE-DPDT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JS202011CQN">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </drawing>
