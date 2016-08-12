@@ -1,0 +1,12 @@
+[submodule "lbr_user"]
+	path = lbr_user
+	url = https://github.com/robertstarr/lbr_user.git
+[submodule "Sick_of_Beige"]
+	path = Sick_of_Beige
+	url = https://github.com/DangerousPrototypes/Sick_of_Beige.git
+[submodule "Adafruit-Eagle-Library"]
+	path = Adafruit-Eagle-Library
+	url = https://github.com/adafruit/Adafruit-Eagle-Library.git
+[submodule "SparkFun-Eagle-Libraries"]
+	path = SparkFun-Eagle-Libraries
+	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries.git
