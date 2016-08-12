@@ -1,6 +1,6 @@
 # Sanae
 
-My library of "go to" parts form EAGLE.
+My library of "go to" parts for [EAGLE](https://cadsoft.io).
 
 All parts in the root of the repository are mine, included (as submodules) are
 other libraries I frequently use:
