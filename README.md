@@ -1,4 +1,4 @@
-# Sanae
+# EAGLE libraries
 
 My library of "go to" parts for [EAGLE](https://cadsoft.io).
 
